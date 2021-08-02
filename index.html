@@ -11,6 +11,7 @@
     <header class="header">
       <div class="header__body">
         <img class="header__logo" src="image/Tesla-Wordmark-Red.svg" alt="Логотип Tesla">
+        <input id="header__toggle" type="checkbox">
         <nav class="menu-car">
           <a href="#" class="menu-car__item">Model S</a>
           <a href="#" class="menu-car__item">Model X</a>
@@ -23,7 +24,6 @@
             <a href="#" class="menu__item">Магазин</a>
             <a href="#" class="menu__item">Войти</a>
           </nav>
-          <input id="header__toggle" type="checkbox">
           <label class="header__burger-label" for="header__toggle">
             <span class="header__burger_span"></span>
           </label>
@@ -62,10 +62,12 @@
           </div>
         </div>
         <div class="preview__arrow">
-          <img src="image/arrow.png" alt="Стрелка" class="preview__arrow-img">
+          <a href="#interior">
+            <img src="image/arrow.png" alt="Стрелка" class="preview__arrow-img">
+          </a>
         </div>
       </section>
-      <section class="interior">
+      <section class="interior" id="interior">
         <h2 class="interior__header">Model S</h2>
         <img class="interior__car" src="image/2013-tesla-model-s-cockpit.png" alt="Салон Tesla Model S: руль, приборная панель, мультимедийная система">
         <div class="interior__description">
